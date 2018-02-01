@@ -1,0 +1,9 @@
+development:
+  environment: sandbox
+  public_key:  config/keys/test-key.pub
+  private_key: config/keys/test-key
+
+production:
+  environment: production
+  public_key:  production_public-key
+  private_key: production_private-key
